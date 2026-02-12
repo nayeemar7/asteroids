@@ -12,6 +12,7 @@ def main():
     Player.containers = (updatable, drawable)
     dt = 0
     player = Player(SCREEN_WIDTH/2,SCREEN_HEIGHT/2)
+    asteroids = pygame.sprite.Group()
     
     while True:
         log_state()
