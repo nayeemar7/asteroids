@@ -22,15 +22,16 @@ A classic Asteroids-style arcade game built using Python and Pygame.
 
 ## ▶️ How to Run
 
-1. Install dependencies:
+1. Install dependencies (if not already installed):
    ```bash
-   pip install pygame
+   uv sync
    ```
 
 2. Run the game:
    ```bash
-   python main.py
+   uv run main.py
    ```
+
 
 ## 🎯 Controls
 
